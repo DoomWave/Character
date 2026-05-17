@@ -5,5 +5,8 @@ public class Main {
         Warrior Guts = new Warrior();
         Guts.attack();
         Guts.displayStats();
+        Archer Link = new Archer();
+        Link.attack();
+        Link.displayStats();
     }
 }
