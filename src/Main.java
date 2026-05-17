@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+//        Character myCharacter = new Character();
+//        myCharacter.attack();
+        Warrior Guts = new Warrior();
+        Guts.attack();
+        Guts.displayStats();
+    }
+}
