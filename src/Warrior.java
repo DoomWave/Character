@@ -1,6 +1,6 @@
 public class Warrior extends Character{
     public Warrior(){
-        super("Warrior", 55, 99);
+        super("Guts", 200, 27);
     }
     @Override
     void attack() {

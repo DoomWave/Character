@@ -1,6 +1,6 @@
 public class Archer extends Character{
     public Archer(){
-        super("Archer", 55, 99);
+        super("Link", 75, 17);
     }
     @Override
     void attack() {

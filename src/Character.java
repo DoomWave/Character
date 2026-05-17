@@ -7,11 +7,11 @@ public class Character {
         this.health = health;
         this.level = level;
     }
-    void attack(){
+    public void attack(){
         System.out.println("Attack");
     }
 
-    void displayStats(){
+    public void displayStats(){
         System.out.println("health points");
     }
 }
