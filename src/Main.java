@@ -8,5 +8,8 @@ public class Main {
         Archer Link = new Archer();
         Link.attack();
         Link.displayStats();
+        Wizard Gandalf = new Wizard();
+        Gandalf.attack();
+        Gandalf.displayStats();
     }
 }
