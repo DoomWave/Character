@@ -1,8 +1,7 @@
 public class Archer extends Character{
-    String name = "Link";
-    int health = 75;
-    int level = 18;
-
+    public Archer(){
+        super("Archer", 55, 99);
+    }
     @Override
     void attack() {
         System.out.println(name + " use his fire bow");
@@ -10,6 +9,6 @@ public class Archer extends Character{
 
     @Override
     void displayStats() {
-        System.out.println(name + " health points and is level " + level);
+        System.out.println(name + " has " + health +  " HP and is level " + level);
     }
 }

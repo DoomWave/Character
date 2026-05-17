@@ -1,8 +1,7 @@
 public class Wizard extends Character{
-    String name = "Gandalf";
-    int level = 99;
-    int health = 45;
-
+   public Wizard(){
+        super("Gandalf", 55, 99);
+   }
     @Override
     void attack() {
         System.out.println(name + " use his magic stick");
@@ -10,6 +9,5 @@ public class Wizard extends Character{
 
     @Override
     void displayStats() {
-        System.out.println(name + " health points and is level " + level);
-    }
+        System.out.println(name + " has " + health +  " HP and is level " + level);    }
 }
